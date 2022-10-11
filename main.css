@@ -1,0 +1,80 @@
+.list-pokemons {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list-pokemons li {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.list-pokemons li h1 {
+  margin-top: 15px;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.list-pokemons li img {
+  margin: auto;
+}
+.list-pokemons li h2 {
+  font-weight: 600;
+  margin-top: auto;
+  font-size: 1.2rem;
+}
+.list-pokemons li div {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px 8px 8px;
+  padding: 10px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(62, 228, 192, 0.6784313725); /* Chrome 10-25, Safari 5.1-6 */
+  color: rgb(22, 22, 22);
+  font-weight: 600;
+}
+.list-pokemons li div h3 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.list-pokemons li div span {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+body {
+  background: #83a4d4; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+#app {
+  text-align: center;
+  width: 100%;
+}
+
+#pokedex {
+  color: #333;
+  margin: 3rem;
+  font-weight: bold;
+  font-size: 60px;
+}/*# sourceMappingURL=main.css.map */
